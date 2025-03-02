@@ -1,0 +1,41 @@
+{
+  "edges": [
+    {
+      "fromNode": "896496ae6895aaf1",
+      "fromSide": "right",
+      "id": "98ad0217f2bcc639",
+      "styleAttributes": {
+      },
+      "toNode": "1178c8b7dcd25005",
+      "toSide": "left"
+    }
+  ],
+  "metadata": {
+  },
+  "nodes": [
+    {
+      "color": "4",
+      "height": 110,
+      "id": "1178c8b7dcd25005",
+      "styleAttributes": {
+        "textAlign": "center"
+      },
+      "text": "Processos Mapeados Inicialmente",
+      "type": "text",
+      "width": 150,
+      "x": 580,
+      "y": -805
+    },
+    {
+      "height": 1140,
+      "id": "896496ae6895aaf1",
+      "styleAttributes": {
+      },
+      "type": "link",
+      "url": "https://kiximoto.github.io/#diagram/546cc8f0-d4f8-4e77-abf9-7dfab6db7a92",
+      "width": 1181,
+      "x": -855,
+      "y": -1375
+    }
+  ]
+}
