@@ -1,0 +1,274 @@
+{
+  "version": 2,
+  "projects": [
+    {
+      "fieldConfig": {},
+      "defaultName": "DD-MM-YYYY",
+      "templates": [],
+      "excludedNotes": [],
+      "isDefault": false,
+      "dataSource": {
+        "kind": "folder",
+        "config": {
+          "path": "2 - Pessoal/2.5 - Atividades Gerais",
+          "recursive": true
+        }
+      },
+      "newNotesFolder": "",
+      "views": [
+        {
+          "config": {},
+          "filter": {
+            "conjunction": "and",
+            "conditions": []
+          },
+          "colors": {
+            "conditions": []
+          },
+          "sort": {
+            "criteria": []
+          },
+          "id": "8b9b0e8d-ba02-4cc9-a434-63d5a154f018",
+          "name": "Table",
+          "type": "table"
+        }
+      ],
+      "id": "d5017b74-0aed-4c49-bd38-6c480f541ac1",
+      "name": "2 - Atividades Pessoais"
+    },
+    {
+      "fieldConfig": {
+        "name": {
+          "richText": true
+        },
+        "Solicitante": {
+          "options": [
+            "1.17.8 - Gustavo",
+            "1.17.9 - Prycila"
+          ]
+        },
+        "Data Conclusão": {
+          "time": true
+        },
+        "Data de Início": {
+          "time": true
+        }
+      },
+      "defaultName": "{{date:DD-MM-YYYY}}",
+      "templates": [],
+      "excludedNotes": [],
+      "isDefault": true,
+      "dataSource": {
+        "kind": "folder",
+        "config": {
+          "path": "1 - Fadex/1.17 - Atividades FADEX",
+          "recursive": true
+        }
+      },
+      "newNotesFolder": "",
+      "views": [
+        {
+          "config": {
+            "fieldConfig": {
+              "path": {
+                "hide": true
+              },
+              "name": {
+                "width": 507
+              },
+              "Data Conclusão": {
+                "width": 235
+              }
+            },
+            "orderFields": [
+              "name",
+              "Solicitante",
+              "Status",
+              "tags",
+              "Data de Início",
+              "Data Conclusão",
+              "path"
+            ]
+          },
+          "filter": {
+            "conjunction": "and",
+            "conditions": []
+          },
+          "colors": {
+            "conditions": [
+              {
+                "color": "#15d1ab",
+                "condition": {
+                  "field": "Status",
+                  "operator": "is-checked",
+                  "enabled": true
+                }
+              },
+              {
+                "color": "#5e5e5e",
+                "condition": {
+                  "field": "Status",
+                  "operator": "is-not-checked",
+                  "enabled": true
+                }
+              }
+            ]
+          },
+          "sort": {
+            "criteria": [
+              {
+                "field": "name",
+                "order": "asc",
+                "enabled": true
+              }
+            ]
+          },
+          "id": "f601399a-7c3b-4633-a03c-eecad141834d",
+          "name": "Table",
+          "type": "table"
+        },
+        {
+          "config": {
+            "checkField": "Status",
+            "includeFields": [
+              "Data de Conclusão"
+            ],
+            "groupByField": "Solicitante",
+            "columns": {
+              "1.17.1 - Conta Própria": {
+                "weight": 0
+              },
+              "1.17.2 - Luciana": {
+                "weight": 1
+              },
+              "1.17.3 - Adriana": {
+                "weight": 2
+              },
+              "1.17.4 - Nívea": {
+                "weight": 3
+              },
+              "1.17.5 - Matusala": {
+                "weight": 4
+              },
+              "1.17.6 - Juliete": {
+                "weight": 5
+              },
+              "1.17.7 - Alex": {
+                "weight": 6
+              },
+              "1.17.8 - Gustavo": {
+                "weight": 7
+              },
+              "1.17.9 - Prycila": {
+                "weight": 8
+              }
+            }
+          },
+          "filter": {
+            "conjunction": "and",
+            "conditions": [
+              {
+                "field": "name",
+                "operator": "is-not",
+                "enabled": true,
+                "value": ""
+              }
+            ]
+          },
+          "colors": {
+            "conditions": [
+              {
+                "color": "#a1a1a1",
+                "condition": {
+                  "field": "Status",
+                  "operator": "is-not-checked",
+                  "enabled": true
+                }
+              },
+              {
+                "color": "#0ce9bc",
+                "condition": {
+                  "field": "Status",
+                  "operator": "is-checked",
+                  "enabled": true,
+                  "value": ""
+                }
+              }
+            ]
+          },
+          "sort": {
+            "criteria": []
+          },
+          "id": "11d982dd-39cd-4fd0-a601-f85a88cccf72",
+          "name": "Board",
+          "type": "board"
+        },
+        {
+          "config": {
+            "interval": "month",
+            "checkField": "Status",
+            "dateField": "Data de Início"
+          },
+          "filter": {
+            "conjunction": "and",
+            "conditions": [
+              {
+                "field": "Status",
+                "operator": "is-not-checked",
+                "enabled": true
+              }
+            ]
+          },
+          "colors": {
+            "conditions": [
+              {
+                "color": "#ffd500",
+                "condition": {
+                  "field": "name",
+                  "operator": "is-not-empty",
+                  "enabled": true
+                }
+              }
+            ]
+          },
+          "sort": {
+            "criteria": []
+          },
+          "id": "a7c1c1ab-7b5d-4382-a503-17394225a43a",
+          "name": "Calendar",
+          "type": "calendar"
+        },
+        {
+          "config": {},
+          "filter": {
+            "conjunction": "and",
+            "conditions": []
+          },
+          "colors": {
+            "conditions": []
+          },
+          "sort": {
+            "criteria": []
+          },
+          "id": "3be1e7c4-1889-4e8e-87ae-31acf0ff71a8",
+          "name": "Gallery",
+          "type": "gallery"
+        }
+      ],
+      "id": "5a4bc65e-9ec1-49f5-8d1c-1f210e8fe621",
+      "name": "1 - Atividades FADEX"
+    }
+  ],
+  "archives": [],
+  "preferences": {
+    "projectSizeLimit": 1000,
+    "frontmatter": {
+      "quoteStrings": "PLAIN"
+    },
+    "locale": {
+      "firstDayOfWeek": "default"
+    },
+    "commands": [],
+    "linkBehavior": "open-editor"
+  }
+}

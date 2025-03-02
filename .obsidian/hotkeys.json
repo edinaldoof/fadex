@@ -1,0 +1,10 @@
+{
+  "file-explorer-plus:toggle-global-hide-filters": [
+    {
+      "modifiers": [
+        "Shift"
+      ],
+      "key": "Tab"
+    }
+  ]
+}

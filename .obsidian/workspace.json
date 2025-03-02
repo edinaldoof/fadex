@@ -1,0 +1,363 @@
+{
+  "main": {
+    "id": "0dc8ae05f790cba8",
+    "type": "split",
+    "children": [
+      {
+        "id": "a7ed69c2557457df",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "6cfa1edead05999a",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "obsidian-projects",
+              "state": {},
+              "pinned": true,
+              "icon": "projects-icon",
+              "title": "Projects"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "ec2e8e19441c3f7b",
+    "type": "split",
+    "children": [
+      {
+        "id": "d6b7d5c4926b5313",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c24502c0101ac74d",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Explorador de arquivos"
+            }
+          },
+          {
+            "id": "b04b136494629b80",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Procurar"
+            }
+          },
+          {
+            "id": "3fd88dd0309e7df4",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Marcadores"
+            }
+          },
+          {
+            "id": "60aa5a3153e06e7a",
+            "type": "leaf",
+            "state": {
+              "type": "file-tree-view",
+              "state": {},
+              "icon": "sheets-in-box",
+              "title": "File Tree"
+            }
+          },
+          {
+            "id": "04773e4ea79d4895",
+            "type": "leaf",
+            "state": {
+              "type": "file-tree-view",
+              "state": {},
+              "icon": "sheets-in-box",
+              "title": "File Tree"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 279.5110321044922
+  },
+  "right": {
+    "id": "7cf980c286a6a799",
+    "type": "split",
+    "children": [
+      {
+        "id": "cb50d7629ccb6511",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "2e8f90a94bdaeed5",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "15c402cd503012e4",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Sumário"
+            }
+          },
+          {
+            "id": "57fb82e8a95ebf9f",
+            "type": "leaf",
+            "state": {
+              "type": "oz-calendar",
+              "state": {},
+              "icon": "OZCAL_ICON",
+              "title": "OZ Calendar"
+            }
+          },
+          {
+            "id": "f702fc8b61952376",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
+          },
+          {
+            "id": "267f1619af17d1b2",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "1 - Fadex/1.17 - Atividades FADEX/1.17.2 - Documentação do Sistema Web de Controle de Projetos FADEX.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Links inversos para 1.17.2 - Documentação do Sistema Web de Controle de Projetos FADEX"
+            }
+          },
+          {
+            "id": "d5ed5579ca2452b9",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "1 - Fadex/1.17 - Atividades FADEX/1.17.2 - Documentação do Sistema Web de Controle de Projetos FADEX.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Links de saída para 1.17.2 - Documentação do Sistema Web de Controle de Projetos FADEX"
+            }
+          },
+          {
+            "id": "e430a1d967d9c304",
+            "type": "leaf",
+            "state": {
+              "type": "todo",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Plugin desativado"
+            }
+          },
+          {
+            "id": "45e0076db877fe5f",
+            "type": "leaf",
+            "state": {
+              "type": "todo",
+              "state": {},
+              "icon": "checkmark",
+              "title": "Todo List"
+            }
+          },
+          {
+            "id": "ea927b0f4476ed45",
+            "type": "leaf",
+            "state": {
+              "type": "oz-calendar",
+              "state": {},
+              "icon": "OZCAL_ICON",
+              "title": "OZ Calendar"
+            }
+          }
+        ],
+        "currentTab": 3
+      },
+      {
+        "id": "fdf5be2b9aca362a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "b973f7d16e71c010",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Visualização em gráfico"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 341.5
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "graph:Abrir visualização em gráfico": false,
+      "switcher:Abrir a troca rápida": false,
+      "canvas:Criar novo canvas": false,
+      "daily-notes:Abrir a nota de hoje": false,
+      "templates:Inserir modelo": false,
+      "command-palette:Abrir paleta de comandos": false,
+      "workspaces:Gerenciar leiautes da área de trabalho": true,
+      "publish:Publicar mudanças": false,
+      "audio-recorder:Começar/parar a gravação de áudio": false,
+      "markdown-importer:Abrir importador Markdown": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "callout-manager:Insert Callout": false,
+      "file-tree-alternative:File Tree Alternative Plugin": false,
+      "obsidian-git:Open Git source control": false,
+      "obsidian-kanban:Criar um novo quadro": false,
+      "obsidian-projects:Open projects": false,
+      "templater-obsidian:Templater": false,
+      "obsidian-excalidraw-plugin:New drawing": false,
+      "omnisearch:Omnisearch": false,
+      "periodic-notes:Open today": false
+    }
+  },
+  "floating": {
+    "id": "2f4440ef7f55097d",
+    "type": "floating",
+    "children": [
+      {
+        "id": "ab2c5331b8754c48",
+        "type": "window",
+        "children": [
+          {
+            "id": "23ef07daa967b707",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "835e068fa9e93007",
+                "type": "leaf",
+                "state": {
+                  "type": "webviewer",
+                  "state": {
+                    "url": "https://obsidian.md/auth#forgotpass",
+                    "title": "Account - Obsidian",
+                    "mode": "webview"
+                  },
+                  "icon": "globe-2",
+                  "title": "Account - Obsidian"
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "vertical",
+        "x": 256,
+        "y": 8,
+        "width": 1024,
+        "height": 800,
+        "maximize": false,
+        "zoom": 0
+      }
+    ]
+  },
+  "active": "6cfa1edead05999a",
+  "lastOpenFiles": [
+    "1 - Fadex/1.17 - Atividades FADEX/1.17.9.1 - Situação Planilha Orçamentaria CC 12101.md",
+    "1 - Fadex/1.11 - Planilhas, Forms, códigos e Relatórios/1.11.13 - Site Assinaturas FADEX.md",
+    "1 - Fadex/1.11 - Planilhas, Forms, códigos e Relatórios/1.11.13 - Site Assinaturas FADEX 1.md",
+    "1 - Fadex/1.7 - Lideranças/1.7.4 - Superintendência.md",
+    "Sem título 1.md",
+    "temp.md",
+    "Sem título.md",
+    "Fadex",
+    "1 - Fadex/1.7 - Lideranças/1.7.3 - Equipe de RI.md",
+    "1 - Fadex/1.7 - Lideranças/1.7.1 - Conselho Curador da FADEX.md",
+    "1 - Fadex/1.3 - Gerência de Finanças/1.3.1 - Pagamentos/1.3.1.5 - Pagamento por Lote.md",
+    "1 - Fadex/1.3 - Gerência de Finanças/1.3.1 - Pagamentos/1.3.1.1 - Devoluções de Pagamento e Ocorrências.md",
+    "1 - Fadex/1.11 - Planilhas, Forms, códigos e Relatórios/1.11.2 - Analise de Rendimentos.md",
+    "1 - Fadex/1.11 - Planilhas, Forms, códigos e Relatórios/1.11.1 - Ajustar Arquivos de planilha para o padrão Xlsx.md",
+    "1 - Fadex/1.11 - Planilhas, Forms, códigos e Relatórios/1.11.12 - Certidões Negativas.md",
+    "1 - Fadex/1.17 - Atividades FADEX/1.17.3 - Adriana/1.17.3.3 - Apresentação FADEX.md",
+    "1 - Fadex/1.17 - Atividades FADEX/1.17.7 - Alex/1.17.7.1 - Gerador de Faturas e Recibos.md",
+    "1 - Fadex/1.17 - Atividades FADEX/1.17.2 - Luciana/1.17.2.1 - Verificação de Projetos seleção publica - Licitação.md",
+    "1 - Fadex/1.17 - Atividades FADEX/1.17.6 - Juliete/1.17.6.1 - Realizar confirmação de Ressarcimento.md",
+    "1 - Fadex/1.17 - Atividades FADEX/1.17.3 - Adriana/1.17.3.2 - Relatório de Gestão.md",
+    "1 - Fadex/1.17 - Atividades FADEX/1.17.8.1 - Criação de Contas de E-mail para Celetistas da Paraíba.md",
+    "1 - Fadex/1.18 - Sistemas FADEX/1.18.1 - Sagi/1.18.1.2 - Modulo DOA.md",
+    "1 - Fadex/1.18 - Sistemas FADEX/1.18.2 - ArqGED/1.18.2.1 - ArqGED.md",
+    "1 - Fadex/1.18 - Sistemas FADEX/1.18.1 - Sagi/1.18.1.1 - Sagi.md",
+    "1 - Fadex/1.18 - Sistemas FADEX/1.18.2 - ArqGED",
+    "1 - Fadex/1.18 - Sistemas FADEX/1.18.1 - Sagi",
+    "1 - Fadex/1.17 - Atividades FADEX/1.17.3.5 - Acompanhamento de Coordenador.md",
+    "1 - Fadex/1.17 - Atividades FADEX/1.17.2 - Luciana/1.17.2.5 - Relatório dos projetos Finalizados.md",
+    "1 - Fadex/1.11 - Planilhas, Forms, códigos e Relatórios/1.11.8 - Planilha Orçamentária.md",
+    "1 - Fadex/1.11 - Planilhas, Forms, códigos e Relatórios/1.11.3 - Código Power Query.canvas",
+    "3 - Arquivos/3.5 - Relatório Gestão 2023.pdf",
+    "3 - Arquivos/3.4 - Relatório Gestão 2022.pdf",
+    "3 - Arquivos/3.3 - Relatório Gestão 2021.pdf",
+    "1 - Fadex/1.17 - Atividades FADEX/1.17.7 - Alex",
+    "1 - Fadex/1.15 - Badespi - Comprovantes/1.15.1 - Cronograma de pagamento - Projeto BADESPI.png",
+    "1 - Fadex/1.15 - Badespi - Comprovantes/1.15.3 - Resumo Fin. Badespi.png",
+    "1 - Fadex/1.17 - Atividades FADEX/1.17.6 - Juliete",
+    "1 - Fadex/1.17 - Atividades FADEX/1.17.5 - Matusala",
+    "1 - Fadex/1.17 - Atividades FADEX/1.17.4 - Nívea",
+    "3 - Arquivos/3.1 - Imagem.png",
+    "3 - Arquivos/3.2 - imagem.png",
+    "1 - Fadex/1.5 - Fluxos/Processos mapeados Antigamente.canvas",
+    "1 - Fadex/Sem título.canvas",
+    "1 - Fadex/1.16 - Unicap - Comprovantes/1.16.3 - Pasted image 20241210090002.png",
+    "1 - Fadex/1.2 - Gerência de Projetos/1.2.4 - Fases do projeto.canvas",
+    "Sem título.canvas",
+    "1 - Fadex/1.5 - Fluxos/Fluxos.canvas",
+    "1 - Fadex/1.16 - Unicap - Comprovantes/1.16.2 - Pasted image 20241210090000.png",
+    "1 - Fadex/1.16 - Unicap - Comprovantes/1.16.9 - Pasted image 20241210095730.png",
+    "1 - Fadex/1.16 - Unicap - Comprovantes/Pasted image 20241210095854.png",
+    "1 - Fadex/1.16 - Unicap - Comprovantes/Pasted image 20241210095920.png",
+    "1 - Fadex/1.16 - Unicap - Comprovantes/Pasted image 20241210100244.png",
+    "1 - Fadex/1.5 - Fluxos/Solicitação de Serviços Pessoa Juridica.canvas"
+  ]
+}
